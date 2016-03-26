@@ -68,7 +68,7 @@ legendsLink(window.location.href,1);
 }
 
 if(legendsFindText('Добыча ресурсов')){ 
-legendsLink(legendsFindLink("Начать добычу"),50000);
+legendsClick("Начать добычу",50000);
 }
 legendsLink(legendsFindLink("Обновить"),10000); 
 
