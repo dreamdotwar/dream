@@ -70,6 +70,8 @@ legendsLink(window.location.href,1);
 if(legendsFindText('Добыча ресурсов')){ 
 legendsClick("Начать добычу",50000);
 }
+
+legendsClick("Продолжить добычy",40000); 
 legendsLink(legendsFindLink("Обновить"),10000); 
 
 
