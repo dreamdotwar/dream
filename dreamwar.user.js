@@ -61,6 +61,7 @@ function legendsSelCount(n) {objSel = document.getElementsByName(n)[0]; return o
 //###########
 //##ФУНКЦИИ##
 //###########
+legendsClick("Продолжить добычу",40000); 
 
 if(legendsFindText('Service Temporarily Unavailable')||legendsFindText('Bad Gateway')||legendsFindText('internal server error')){
 //Заметил, что частенько на баффах выпадает 503(502,500) ошибка. Обновляем страницу
@@ -71,7 +72,6 @@ if(legendsFindText('Добыча ресурсов')){
 legendsClick("Начать добычу",50000);
 }
 
-legendsClick("Продолжить добычy",40000); 
 legendsLink(legendsFindLink("Обновить"),10000); 
 
 
